@@ -1,0 +1,56 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#5284BE"
+    },
+    "window.zoomLevel": 2,
+    "extensions.autoUpdate": true,
+    "newFile.showFullPath": false,
+    "newFile.defaultFileExtension": ".cs",
+    "newFile.showPathRelativeTo": "project",
+    "workbench.welcome.enabled": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.windows": "bash.exe",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "omnisharp.projectLoadTimeout": 300,
+    "vsicons.projectDetection.autoReload": true,
+    "msbuildProjectTools": {
+        "logging": {
+            "level": "Information",
+            "seq": {},
+            "file": "",
+            "trace": false
+        },
+        "language": {
+            "disableFeature": {},
+            "useClassicProvider": false,
+            "disable": {
+                "hover": false
+            }
+        },
+        "nuget": {
+            "newestVersionsFirst": true,
+            "includePreRelease": true,
+            "disablePrefetch": false
+        },
+        "schemaVersion": 1
+    },
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    },
+        {
+            "before": ["<Enter>"],
+            "after": ["o<Esc>"]
+        },
+        {
+            "before": ["S<Enter>"],
+            "after": ["O<Esc>"]
+        }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Visual Studio Light"
+}
